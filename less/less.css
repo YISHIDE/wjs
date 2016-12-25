@@ -1,0 +1,28 @@
+body {
+  color: red;
+}
+.color {
+  color: #e0e0e0;
+}
+.border {
+  border: 1px solid #e0e0e0;
+}
+.borderColor {
+  color: #e0e0e0;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+}
+/*微金所*/
+.wjs_header {
+  color: #c7c7c7;
+  color: #e0e0e0;
+}
+.wjs_header .banner {
+  font-size: 14px;
+}
+.wjs_header .banner:hover {
+  color: #ffffff;
+}
+.wjs_header .banner > footer {
+  background: #000;
+}

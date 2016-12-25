@@ -1,0 +1,34 @@
+@mainColor:#e0e0e0;
+@import "color";
+body{
+  color:@Color;
+}
+.color{
+  color:@mainColor;
+}
+.border{
+  border:1px solid @mainColor
+}
+//或者
+.mainColor(){
+  box-sizing:border-box;
+}
+.borderColor{
+  .color();
+  .border();
+  .mainColor();
+}
+/*微金所*/
+.wjs_header{
+  color: darken(@mainColor,10%);
+  .color();
+  .banner{
+    font-size:14px;
+    &:hover{
+    color:#e0e0e0 *2;
+  }
+    > footer{
+      background: #000;
+    }
+  }
+}

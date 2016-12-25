@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .container{
+            background-color: red;
+            width: 1200px;
+            height: 1000px;
+            margin:  0 auto;
+        }
+        @media screen and (max-width:768px){
+            .container{
+                width: 100%;
+                background-color: yellow;
+            }
+        }
+        @media screen and (min-width:768px) and (max-width: 992px){
+            .container{
+                width: 750px;
+                background-color: aqua;
+            }
+        }
+        @media screen and (min-width: 992px) and (max-width: 1200px){
+            .container{
+                width: 970px;
+                background-color: brown;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+</div>
+</body>
+</html>
